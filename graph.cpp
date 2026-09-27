@@ -7,8 +7,8 @@ using namespace std;
 // undirected weighted graph representation using adjacency list
 
 int main() {
-    ifstream fin("input.txt");
-    ofstream fout("output.txt");   // opens/creates output.txt for writing
+    ifstream fin("txt/input.txt");
+    ofstream fout("txt/output.txt");   // opens/creates output.txt for writing
 
     if (!fin || !fout) {
         cerr << "Could not open file!" << endl;
